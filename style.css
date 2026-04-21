@@ -1,6 +1,10 @@
+:root {
+    --primary-bg-color: lightblue;
+}
+
 /* Styles main page background */
 body {
-    background-color: lightblue;
+    background-color: var(--primary-bg-color, lightblue);
 }
 
 h3 {
