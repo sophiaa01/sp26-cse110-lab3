@@ -31,6 +31,7 @@ div {
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid black;
+    display: block;
 }
 
 button {
@@ -45,6 +46,7 @@ h1 {
     padding: 5px 5px 5px 5px;
     border: 1px solid black;
     text-decoration: underline;
+
 }
 
 p {
@@ -56,6 +58,7 @@ p {
     color: darkslategray;
     text-align: left;
     margin: 5mm 0mm 5mm 0mm;
+    display: block;
 }
 
 nav {
@@ -66,4 +69,8 @@ nav {
 h2 {
     margin: 5px 10px 5px 10px;
     border: 1px solid black;
+}
+
+span {
+    display: inline;
 }
