@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://sophiaa01.github.io/Lab2_Starter/
+# Lab 3
+https://sophiaa01.github.io/sp26-cse110-lab3/
