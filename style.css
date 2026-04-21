@@ -9,7 +9,7 @@ html {
 /* Styles main page background */
 body {
     background-color: var(--primary-bg-color, lightblue);
-    margin: 2%;
+    margin: 0%;
     border: 1px solid black;
 }
 
@@ -32,8 +32,8 @@ div {
     padding-right: 5px;
     border: 1px solid black;
     display: block;
-    height: 600px;
-    width: 1150px;
+    height: auto;
+    width: auto;
     position: static;
 }
 
@@ -104,4 +104,11 @@ button:active {
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        background-color: lightblue;
+        color: black;
+    }
 }
