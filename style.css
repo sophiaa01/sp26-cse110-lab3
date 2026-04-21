@@ -2,3 +2,15 @@
 body {
     background-color: lightblue;
 }
+
+h3 {
+    color: hsl(200, 80%, 20%);
+}
+
+div {
+    color: color(display-p3 0 0 1);
+}
+
+button {
+    color: color-mix(in srgb, red 10%, blue 50%);
+}
