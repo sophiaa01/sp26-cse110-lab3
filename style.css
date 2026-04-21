@@ -83,3 +83,11 @@ footer {
     position: sticky;
     bottom: 5px;
 }
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: red;
+}
