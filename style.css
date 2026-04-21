@@ -44,6 +44,7 @@ h1 {
     margin: auto;
     padding: 5px 5px 5px 5px;
     border: 1px solid black;
+    text-decoration: underline;
 }
 
 p {
@@ -52,6 +53,9 @@ p {
     border-color: black;
     border-radius: 5px;
     padding: 2mm;
+    color: darkslategray;
+    text-align: left;
+    margin: 5mm 0mm 5mm 0mm;
 }
 
 nav {
