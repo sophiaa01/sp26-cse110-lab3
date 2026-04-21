@@ -91,3 +91,17 @@ button:hover {
 button:active {
     color: red;
 }
+
+.attachments {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
