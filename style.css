@@ -113,3 +113,49 @@ button:active {
         color: black;
     }
 }
+
+#date {
+    color: red;
+}
+
+* {
+    margin: 0;
+}
+
+p[target="_blank"] {
+    background-color: yellow;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div p {
+    color:darkblue;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+h1 ~ p {
+    color: gray;
+}
+
+h1 + p {
+    color: pink;
+}
+
+ol.agenda {
+    margin: 10px;
+}
+
+div:has(.meeting-form) {
+    padding: 10px;
+}
+
+section {
+    & p {
+        color: teal;
+    }
+}

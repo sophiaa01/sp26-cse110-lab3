@@ -6,9 +6,11 @@
     <title>Project First Brainstorm</title>
     <link rel="icon" href="assets/lab2_icon.png">
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <style>
         h2 {
             color: rgb(128,0,0);
@@ -19,7 +21,7 @@
   <body>
     <header>
         <h1 style="color:#000000;">Project First Brainstorm</h1>
-        <h2>Date: April 12, 2026</h2>
+        <h2 id="date">Date: April 12, 2026</h2>
         <nav>
             <h3>Section</h3>
             <ul>
@@ -53,7 +55,7 @@
         <div>
             <section>
                 <h3>Agenda Overview</h3>
-                <ol>
+                <ol class="agenda">
                     <li>Fill out <strong>sign up form</strong> for your group</li>
                     <li>Create a <span><em>private</em></span> GitHub repository</li>
                     <li>Start considering ideas for your first milestone</li>
@@ -92,7 +94,7 @@
 
         <div class="form">
             <h3>Next Meeting Details</h3>
-            <form>
+            <form class="meeting-form">
                 <fieldset>
                     <p>Did you attend meeting?</p>
                     <input type="radio">
