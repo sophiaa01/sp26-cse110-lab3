@@ -22,7 +22,7 @@
     <header>
         <h1 style="color:#000000;">Project First Brainstorm</h1>
         <h2 id="date">Date: April 12, 2026</h2>
-        <nav>
+        <nav class="sections">
             <h3>Section</h3>
             <ul>
                 <li><a href="#attendees">Attendees</a></li>
@@ -97,34 +97,18 @@
             <form class="meeting-form">
                 <fieldset>
                     <p>Did you attend meeting?</p>
-                    <input type="radio">
-                    <label>Yes</label>
-                    <br>
-                    <input type="radio">
-                    <label>No</label>
+                    
+                    <label><input type="radio">Yes</label>
+                    <label><input type="radio">No</label>
 
-                    <br>
-
-                    <label>Choose date for next meeting:</label>
+                    <p>Choose date for next meeting:</p>
                     <input type="date">
 
-                    <br>
-
                     <p>What time?</p>
-                    <input type="checkbox">
-                    <label>9-10</label>
-                    <input type="checkbox">
-                    <label>10-11</label>
-                    <input type="checkbox">
-                    <label>11-12</label>
-                    <input type="checkbox">
-                    <label>12-1</label>
-                    <input type="checkbox">
-                    <label>1-2</label>
-                    <input type="checkbox">
-                    <label>2-3</label>
+                    <label><input type="checkbox">9-10</label>
+                    <label><input type="checkbox">10-11</label>
+                    <label><input type="checkbox">11-12</label>
 
-                    <br>
 
                     <p>What location?</p>
                     <input list="locations" type="text">
@@ -134,9 +118,7 @@
                         <option>Other</option>
                     </datalist>
 
-                    <br>
-
-                    <label>Which site will you look for datasets?</label>
+                    <p>Which site will you look for datasets?</p>
                     <select>
                         <option>Kaggle</option>
                         <option>UCI Machine Learning Repository</option>
@@ -144,10 +126,10 @@
                     </select>
 
                     <p>What action items do you want to go over?</p>
-                    <textarea>Datasets</textarea>
+                    <textarea></textarea>
 
-                    <br>
                     <button>Submit</button>
+
                 </fieldset>
             </form>
         </div>

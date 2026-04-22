@@ -10,14 +10,13 @@ html {
 body {
     background-color: var(--primary-bg-color, lightblue);
     margin: 0%;
-    border: 1px solid black;
 }
 
 h3 {
     color: hsl(200, 80%, 20%);
     font-size: 1.5rem;
-    border: 1px solid black;
     padding: 0.1cm;
+    text-align: center;
 }
 
 div {
@@ -30,30 +29,31 @@ div {
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    border: 1px solid black;
     display: block;
     height: auto;
     width: auto;
     position: static;
+    border-width: 1px;
 }
 
 button {
     color: color-mix(in srgb, red 10%, blue 50%);
     padding: 0.1cm;
     border: 1px solid black;
+    display: block;
+    margin: 10px auto;
 }
 
 h1 {
     font-size: 2.5em;
     margin: auto;
     padding: 5px 5px 5px 5px;
-    border: 1px solid black;
     text-decoration: underline;
     font-family: 'Noto Sans';
 }
 
 p {
-    border-width: 1px;
+    border-width: 0px;
     border-style: solid;
     border-color: black;
     border-radius: 5px;
@@ -73,7 +73,6 @@ nav {
 
 h2 {
     margin: 5px 10px 5px 10px;
-    border: 1px solid black;
 }
 
 span {
@@ -83,6 +82,7 @@ span {
 footer {
     position: sticky;
     bottom: 5px;
+    border: none;
 }
 
 button:hover {
@@ -98,6 +98,7 @@ button:active {
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: left;
+    padding: 20px;
 }
 
 .form {
@@ -158,4 +159,8 @@ section {
     & p {
         color: teal;
     }
+}
+
+.sections {
+    padding: 10px;
 }
